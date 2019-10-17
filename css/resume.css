@@ -13,7 +13,9 @@ body {
 @media (min-width: 992px) {
   body {
     padding-top: 0;
-    padding-left: 17rem;
+    padding-left: 24rem;
+    padding-right: 6rem;
+
   }
 }
 
@@ -85,6 +87,7 @@ p.lead {
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
+  font-size: 1.5rem;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
 }
@@ -141,6 +144,7 @@ section.resume-section {
 
 section.resume-section .resume-item .resume-date {
   min-width: none;
+  text-align: right;
 }
 
 @media (min-width: 768px) {
@@ -165,6 +169,7 @@ section.resume-section .resume-item .resume-date {
 
 .text-primary {
   color: #B8C3E6 !important;
+  text-align: right;
 }
 
 a {
