@@ -13,8 +13,8 @@ body {
 @media (min-width: 992px) {
   body {
     padding-top: 0;
-    padding-left: 24rem;
-    padding-right: 6rem;
+    padding-left: 20rem;
+    padding-right: 4rem;
 
   }
 }
