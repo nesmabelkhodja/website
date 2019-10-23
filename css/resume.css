@@ -11,28 +11,33 @@ body {
 }
 
 @media screen and (max-width: 481px){
+  h2 {
+    padding-top: 6rem;
+    font-size: 6rem;
+    line-height: 5.5rem;
+  }
   #sideNav {
-    text-align: left;
+    text-align: bottom;
     position: fixed;
     top: 0;
     left: 0;
     display: flex;
     flex-direction: row;
-    width: 50rem;
+    width: flex;
     height: 40vh;
-    max-width: 100%;
+    min-width: 100%;
+    padding: .5rem;
   }
   #sideNav .navbar-brand {
     display: flex;
     margin: auto auto 0;
-    padding: 1rem;
+    padding: .5rem;
   }
  #sideNav .navbar-brand .img-profile {
-    max-width: 9rem;
+    max-width: flex;
     max-height: 9rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
-    margin-left: 0rem;
-    margin-top: 0rem;
+    margin-right: -2rem;
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -182,7 +187,7 @@ p.lead {
 section.resume-section {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
-  max-width: 20rem;
+  padding-right: 7rem;
 }
 
 section.resume-section .resume-item .resume-date {
