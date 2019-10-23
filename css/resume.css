@@ -11,22 +11,25 @@ body {
 }
 
 @media screen and (max-width: 481px){
+  h1 {
+    padding-top: 20vh;
+  }
   h2 {
     padding-top: 6rem;
     font-size: 6rem;
     line-height: 5.5rem;
   }
   #sideNav {
-    text-align: bottom;
+    text-align: right;
     position: fixed;
     top: 0;
     left: 0;
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
-    width: flex;
     height: 40vh;
     min-width: 100%;
     padding: .5rem;
+    z-index: 1;
   }
   #sideNav .navbar-brand {
     display: flex;
@@ -35,9 +38,10 @@ body {
   }
  #sideNav .navbar-brand .img-profile {
     max-width: flex;
+    display: flex;
     max-height: 9rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
-    margin-right: -2rem;
+    margin-right: -5rem;
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -47,7 +51,7 @@ body {
     margin-bottom: auto;
   }
   #sideNav .navbar-collapse .navbar-nav {
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
   }
   #sideNav .navbar-collapse .navbar-nav .nav-item {
@@ -55,6 +59,7 @@ body {
   }
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block;
+    margin-right: 5vw;
   }
 }
 
@@ -187,12 +192,14 @@ p.lead {
 section.resume-section {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
-  padding-right: 7rem;
+  max-width: 100vw;
+  overflow: hidden;
 }
 
 section.resume-section .resume-item .resume-date {
   min-width: none;
-  text-align: right;
+  display: center;
+  padding-left: 50vw;
 }
 
 @media (min-width: 768px) {
@@ -200,7 +207,7 @@ section.resume-section .resume-item .resume-date {
     min-height: 100vh;
   }
   section.resume-section .resume-item .resume-date {
-    min-width: 18rem;
+    min-width: 100vw;
   }
 }
 
