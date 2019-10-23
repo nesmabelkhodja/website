@@ -2,4 +2,4 @@
 
 Nesma Belkhodja
 
-Website for nesmabelkhodja.com -- uses bootstrap, html, and custom css.
+Website for nesmabelkhodja.com -- implements bootstrap, html, and custom css.
